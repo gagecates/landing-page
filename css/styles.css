@@ -11,8 +11,8 @@
 
 /* ---- Base Rules ---- */
 body {
-    background: rgb(136,203,171);
-    background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(1, 9, 17) 0%, rgb(65, 28, 124) 100%);
     margin: 0;
     font-family: 'Merriweather', serif;
     color: #fff;
@@ -60,14 +60,11 @@ section {
     min-height: 80vh;
 }
 
-
-/* ---- Module Rules ---- */
-
-/* Navigation Styles*/
 .navbar__menu ul {
+    display: flex;
     padding-left: 0;
     margin: 0;
-    text-align: right;
+    background-color: rgb(78, 72, 78);
 }
 
 .navbar__menu li {
@@ -84,13 +81,17 @@ section {
 
 .navbar__menu .menu__link:hover {
     background: #333;
-    color: #fff;
+    color: rgb(7, 1, 1);
     transition: ease 0.3s all;
+}
+
+[data-active="true"]{
+    background-color: black;
+    color: pink;
 }
 
 /* Header Styles */
 .page__header {
-    background: #fff;
     position: fixed;
     top: 0;
     width: 100%;
