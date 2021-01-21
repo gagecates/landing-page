@@ -85,10 +85,6 @@ section {
     transition: ease 0.3s all;
 }
 
-[data-active="true"]{
-    background-color: black;
-    color: pink;
-}
 
 /* Header Styles */
 .page__header {
