@@ -1,5 +1,7 @@
 const navbarList = document.getElementById("navbar__list");
 const sections = document.querySelectorAll("section");
+const navbarLinks = document.getElementsByClassName("menu__link");
+
 
 function createNavLinks(){
     for (let section of sections){
