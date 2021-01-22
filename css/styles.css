@@ -79,8 +79,8 @@ section {
     color: #000;
 }
 
-.navbar__menu #this-section-active {
-    background-color: purple;
+.navbar__menu .menu__link.nav-active {
+    background-color: rgb(143, 139, 143);
 }
 
 .navbar__menu .menu__link:hover {
